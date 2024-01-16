@@ -23,9 +23,7 @@
 **Command** `ls`
 
 1. command with no arguments
-
 ![Image](ls1.png)
-
 - The working directory is /home.
 - Since no path is given in this example, the system simply lists the files and folders of the /home directory.
 - This output is not an error.
@@ -33,7 +31,7 @@
 2. command with a path to a directory as an argument
 ![Image](ls2.png)
 - The working directory is /home.
-- - The system lists all the files and folders of the given path after the code runs. The given path here is the lecture1/ directory, so Hello.java  messages  README are printed.
+- The system lists all the files and folders of the given path after the code runs. The given path here is the lecture1/ directory, so Hello.java  messages  README are printed.
 - This output is not an error.
 
 3. command with a path to a file as an argument
