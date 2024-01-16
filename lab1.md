@@ -3,7 +3,7 @@
 1. command with no arguments
 ![Image](cd1.png)
 - The working directory is /home.
-- Without a sepecific argument here, we do not have a path to switch to from the current working directory. So the system simply print out the current working directory which is /home in this example.
+- Without a specific argument here, we do not have a path to switch to from the current working directory. So the system simply prints out the current working directory which is /home in this example.
 - This output is not an error.
 
 2. command with a path to a directory as an argument
@@ -15,7 +15,7 @@
 3. command with a path to a file as an argument
 ![Image](cd3.png)
 - The working directory is /home.
-- We are trying to pass a file instead of a directory as the argument of the `cd` command, it contradicts with the function of cd command which it enables us to move between different directories. Thus, the system remind us that the input argument is not a directory and stays at the previous working directory.
+- We are trying to pass a file instead of a directory as the argument of the `cd` command, it contradicts the function of the `cd` command which enables us to move between different directories. Thus, the system reminds us that the input argument is not a directory and stays at the previous working directory.
 - This output is an error because the system is expecting a directory as an argument, but instead a file is given.
 
 
@@ -35,7 +35,7 @@
 3. command with a path to a file as an argument
 ![Image](ls3.png)
 - The working directory is /home.
-- Since we are taking a file as an argument, there is no contents of that file to be listed. Then, the system just display the information of that specific file for us.
+- Since we are taking a file as an argument, there are no contents of that file to be listed. Then, the system just display the information of that specific file for us.
 - This output is not an error.
 
 
@@ -43,13 +43,13 @@
 1. command with no arguments
 ![Image](cat1.png)
 - The working directory is /home.
-- There is no response after the code runs, and even the prompt has gone. I believe this is because we do not have a given path and the system is waiting for such argument to further process.
+- There is no response after the code runs, and even the prompt has gone. I believe this is because we do not have a given path and the system is waiting for such an argument to further process.
 - This output is not an error.
 
 2. command with a path to a directory as an argument
 ![Image](cat2.png)
 - The working directory is /home.
-- The system reminds us that our input argument is a directory but `cat` command is used to print contents of given file.
+- The system reminds us that our input argument is a directory but the `cat` command is used to print the contents of a given file.
 - This output is an error since a file is expected but a directory is given.
 
 3. command with a path to a file as an argument
