@@ -23,10 +23,7 @@
 **Command** `ls`
 
 1. command with no arguments
-
-
-
-![Image](ls1.png)
+![Image](ls2.png)
 - The working directory is /home.
 - Since no path is given in this example, the system simply lists the files and folders of the /home directory.
 - This output is not an error.
@@ -47,8 +44,6 @@
 **Command** `cat`
 
 1. command with no arguments
-
-
 ![Image](cat1.png)
 - The working directory is /home.
 - There is no response after the code runs, and even the prompt has gone. I believe this is because we do not have a given path and the system is waiting for such an argument to further process.
