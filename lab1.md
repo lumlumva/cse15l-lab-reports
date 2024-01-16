@@ -1,5 +1,6 @@
 # Lab Report 1
 **Command** `cd`
+
 1. command with no arguments
 ![Image](cd1.png)
 - The working directory is /home.
@@ -20,6 +21,7 @@
 
 
 **Command** `ls`
+
 1. command with no arguments
 ![Image](ls1.png)
 - The working directory is /home.
@@ -40,6 +42,7 @@
 
 
 **Command** `cat`
+
 1. command with no arguments
 ![Image](cat1.png)
 - The working directory is /home.
