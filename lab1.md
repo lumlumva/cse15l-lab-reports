@@ -1,5 +1,5 @@
 # Lab Report 1
-## Command `cd`
+**Command** `cd`
 1. command with no arguments
 ![Image](cd1.png)
 - The working directory is 
