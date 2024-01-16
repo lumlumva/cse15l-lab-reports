@@ -3,7 +3,7 @@
 1. command with no arguments
 ![Image](cd1.png)
 - The working directory is /home.
-- Since there is no argument here, we do not have a path to switch to from the current working directory. So the system simply print out the current working directory which is /home in this example.
+- Without a sepecific argument here, we do not have a path to switch to from the current working directory. So the system simply print out the current working directory which is /home in this example.
 - This output is not an error.
 
 2. command with a path to a directory as an argument
@@ -55,5 +55,5 @@
 3. command with a path to a file as an argument
 ![Image](cat3.png)
 - The working directory is /home.
-- The content of the given path is printed. The given path is /home/lecture1/messages/zh-cn.txt in this example and the according content of message 你好世界 is printed coorectly.
+- The content of the given path is printed. The given path is /home/lecture1/messages/zh-cn.txt in this example and the according content of message 你好世界 is printed correctly.
 - This output is not an error.
