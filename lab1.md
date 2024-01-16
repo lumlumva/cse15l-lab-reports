@@ -3,7 +3,6 @@
 **Command** `cd`
 
 1. command with no arguments
-
 ![Image](cd1.png)
 
 - The working directory is /home.
@@ -11,7 +10,6 @@
 - This output is not an error.
 
 2. command with a path to a directory as an argument
-
 ![Image](cd2.png)
 
 - The working directory is /home/lecture1.
@@ -19,7 +17,6 @@
 - This output is not an error.
 
 3. command with a path to a file as an argument
-
 ![Image](cd3.png)
 
 - The working directory is /home.
@@ -36,7 +33,6 @@
 - This output is not an error.
 
 2. command with a path to a directory as an argument
-
 ![Image](ls2.png)
 
 - The working directory is /home.
@@ -44,7 +40,6 @@
 - This output is not an error.
 
 3. command with a path to a file as an argument
-
 ![Image](ls3.png)
 
 - The working directory is /home.
@@ -61,7 +56,6 @@
 - This output is not an error.
 
 2. command with a path to a directory as an argument
-
 ![Image](cat2.png)
 
 - The working directory is /home.
@@ -69,7 +63,6 @@
 - This output is an error since a file is expected but a directory is given.
 
 3. command with a path to a file as an argument
-
 ![Image](cat3.png)
 
 - The working directory is /home.
