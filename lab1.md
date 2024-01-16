@@ -75,3 +75,7 @@
 - The working directory is /home.
 - The content of the given path is printed. The given path is /home/lecture1/messages/zh-cn.txt in this example and the according content of message 你好世界 is printed correctly.
 - This output is not an error.
+
+1. a
+2. b
+3. c
