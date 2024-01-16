@@ -23,6 +23,7 @@
 **Command** `ls`
 
 1. command with no arguments
+
 ![Image](ls1.png)
 * The working directory is /home.
 * Since no path is given in this example, the system simply lists the files and folders of the /home directory.
