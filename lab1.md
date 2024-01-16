@@ -1,6 +1,7 @@
 # Lab Report 1
 
 **Command** `cd`
+
 1. command with no arguments
 ![Image](cd1.png)
 * The working directory is /home.
@@ -20,6 +21,7 @@
 * This output is an error because the system is expecting a directory as an argument, but instead a file is given.
 
 **Command** `ls`
+
 1. command with no arguments
 ![Image](ls1.png)
 * The working directory is /home.
@@ -39,6 +41,7 @@
 * This output is not an error.
 
 **Command** `cat`
+
 1. command with no arguments
 ![Image](cat1.png)
 * The working directory is /home.
