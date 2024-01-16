@@ -1,9 +1,8 @@
 # Lab Report 1
 **Command** `cd`
+
 1. command with no arguments
-
 ![Image](cd1.png)
-
 - The working directory is /home.
 - Without a specific argument here, we do not have a path to switch to from the current working directory. So the system simply prints out the current working directory which is /home in this example.
 - This output is not an error.
