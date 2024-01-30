@@ -46,3 +46,15 @@ class ChatServer {
 }
 ```
 
+![Image](Screenshot1.png)
+* The `handleRequest` method is called.
+* The `URI url` argument is passed to the `handleRequest` method. In this example, the value of `url` is the `/add-message?s=Hello&user=jpolitz`. The relevant field in `Handler` class is `chat` being an empty string initially.
+* The `chat` field is updated to "jpolitz: Hello\n" after processing the request.
+
+![Image](Screenshot2.png)
+* The `handleRequest` method is called.
+* The `URI url` argument is passed to the `handleRequest` method. In this example, the value of `url` is the `/add-message?s=How are you&user=yash`. The relevant field in `Handler` class is `chat` being `"jpolitz: Hello\n"` before the request.
+* After this request, the `chat` is updated to `"jpolitz: Hello\nyash: How are you\n"`.
+
+
+**Part 2**
