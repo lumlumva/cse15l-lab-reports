@@ -58,3 +58,13 @@ class ChatServer {
 
 
 **Part 2**
+
+
+
+
+
+
+
+**Part 3**
+*  I learned about the process of securely connecting to a remote server using SSH. When we connect for the first time, we will see a message asking if we trust the server. This is a security step to make sure we are connecting to the right server and not to someone else pretending to be that server. This step helps keep your connection safe and secure.
+*  I also learned to create my own simple web server using Java. I learned how the server takes in requests from the web and gives back responses based on what the request was about. It was like setting up different responses for different addresses and questions.
