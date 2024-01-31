@@ -58,11 +58,12 @@ class ChatServer {
 
 
 **Part 2**
-
-
-
-
-
+* The absolute path to the private key
+![Image](privatekey.png)
+* The absolute path to the public key
+![Image](publickey.png)
+* The terminal interaction
+![Image](interaction.png)
 
 
 **Part 3**
