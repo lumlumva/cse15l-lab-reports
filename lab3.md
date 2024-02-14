@@ -80,7 +80,7 @@ grep -c "DNA" ./technical/biomed/1471-2431-2-1.txt
 grep -c "political" ./technical/government/Media/agency_expands.txt
 0
 ```
-	-The `grep -c` counts the number of lines that contains the inout word within the designated file. It is useful as it quickly summarize if the interested word are found in the file and shows the frequency of the word.
+	- The `grep -c` counts the number of lines that contains the inout word within the designated file. It is useful as it quickly summarize if the interested word are found in the file and shows the frequency of the word.
 
 * option 2
 * -U, --binary Search binary files, but do not attempt to print them.
