@@ -43,7 +43,7 @@ public class ArrayTests {
 
 * The bug, as the before-and-after code change required to fix it
   - before code change
-  ```java
+```java
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -52,7 +52,8 @@ public class ArrayTests {
     return arr;
   }
 }
-  ```
+```
+
  - after code change
  ```java
  static int[] reversed(int[] arr) {
@@ -71,7 +72,7 @@ The code before change modifying the input array `arr` directly to reverse the a
 
 * option 1
 * -c, --count Only a count of selected lines is written to standard output.
-1. ```java
+1.```java
 grep -c "DNA" ./technical/biomed/1471-2431-2-1.txt
 17
 ```
