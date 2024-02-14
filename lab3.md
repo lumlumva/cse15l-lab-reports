@@ -54,7 +54,7 @@ public class ArrayTests {
 }
 ```
 
- - after code change
+  - after code change
  ```java
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -72,11 +72,12 @@ The code before change modifying the input array `arr` directly to reverse the a
 
 * option 1
 * -c, --count Only a count of selected lines is written to standard output.
+  
 1.```java
 grep -c "DNA" ./technical/biomed/1471-2431-2-1.txt
 17
 ```
-2. ```java
+2.```java
 grep -c "political" ./technical/government/Media/agency_expands.txt
 0
 ```
