@@ -80,7 +80,7 @@ grep -c "DNA" ./technical/biomed/1471-2431-2-1.txt
 grep -c "political" ./technical/government/Media/agency_expands.txt
 0
 ```
- - The `grep -c` counts the number of lines that contains the inout word within the designated file. It is useful as it quickly summarize if the interested word are found in the file and shows the frequency of the word.
+ - The `grep -c` command counts the number of lines that contains the inout word within the designated file. It is useful as it quickly summarize if the interested word are found in the file and shows the frequency of the word.
 
 * option 2
 * -U, --binary Search binary files, but do not attempt to print them.
@@ -104,7 +104,7 @@ grep -c "political" ./technical/government/Media/agency_expands.txt
         questions about whether that will translate into effective therapy.
         trials may deliver the RNA by direct injection into the target tissue (for a tumor,for
    ```
-   - `grep -U` treats the file as binary during the search. This helps to prevent misinterpretating of the pattern that are being search for wothout confusion from file formatting differences. 
+   - The `grep -U` command treats the file as binary during the search. This helps to prevent misinterpretating of the pattern that are being search for wothout confusion from file formatting differences. 
 
 * option 3
 * -A num, --after-context=num Print num lines of trailing context after each match.
@@ -119,7 +119,7 @@ grep -c "political" ./technical/government/Media/agency_expands.txt
         was expected that in these tumours this copy would have been lost or inactivated. However,
         this turned out not to be the case. Half of the tumours from mice younger than 18 months
    ```
-   - `grep -A` command takes in the input word and finds it in the file, then prints the input number of lines as the next lines after it for the additional text. It helps when looking through a large file of text, sorts out only the useful information.
+   - The `grep -A` command takes in the input word and finds it in the file, then prints the input number of lines as the next lines after it for the additional text. It helps when looking through a large file of text, sorts out only the useful information.
      
 * option 4
 * -i, --ignore-case Perform case insensitive matching.
@@ -133,6 +133,6 @@ grep -c "political" ./technical/government/Media/agency_expands.txt
    grep -i "atp" ./technical/biomed/1471-230X-2-23.txt
         ] , ATP [ 4 5 ] , and bile salts [ 6 ] . In addition to the
    ```
-   - `grep -i` command would find the input word within the file regardless if it is capitalized or not, as `-i` is case-insensitive. Where it allows for flexible and inclusive searches by ignoring case sensitvity in the files.
+   - The `grep -i` command would find the input word within the file regardless if it is capitalized or not, as `-i` is case-insensitive. Where it allows for flexible and inclusive searches by ignoring case sensitvity in the files.
 
 All command line descriptions are found in Visual Studio Code with command `man grep`.
