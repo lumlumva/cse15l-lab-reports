@@ -20,7 +20,7 @@ The `IndexOutOfBoundsException` typically occurs when you try to access or inser
 
 Thanks for the suggestion! After reviewing my code, I did notice on my mistake, which is how the way I check for the fullness of the list. Here was the problematic part of my code:
 ![Image](problem.png)
-I have realized that the `ArrayList` handles its own resizing, I have mistakenly assumed that specifying any index within the capacity limit that I initially set for the `ArrayList` would be valid. But the actual list size and how the `ArrayList` manages capacity are different. With that, I adjust the `addElement` method to add elements within the actual size of the list, hence the corrected code would output the correct output:
+I have realized that the `ArrayList` handles its own resizing, I have mistakenly assumed that specifying any index within the capacity limit that I initially set for the `ArrayList` would be valid. But the actual list size and how the `ArrayList` manages capacity are different. With that, I adjust the `addElementAtIndex` method to add elements within the actual size of the list, hence the corrected code would output the correct output:
 ![Image](output2.png)
 Where the index that are out of bound being added to the end of the list instead of the specified out of bounds index.
 Thanks for the help!
