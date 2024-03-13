@@ -2,6 +2,7 @@
 ## **Part 1 - Debugging Scenario**
 
 **Original Post by Student**
+
 Hello!
 
 I'm working on the method for my list where it suppose to add elements to the list that has reached the max capacity. However, I have encounter an `IndexOutOfBoundExcpetion`. I thought that the `ArrayList` would automatically be resize as being a part of the Java function. Here is the output of the error that I am getting attached below: 
@@ -10,6 +11,7 @@ I'm working on the method for my list where it suppose to add elements to the li
 The list are specified with a capacity at the beginning, and I have added elements to check for the fullness of the list before adding a new element into the list. Could the bug being the fullness check is incorrect, or my understnading of the `ArrayList` that are handling full are wrong?
 
 **Response from TA**
+
 Hi there,
 
 The `IndexOutOfBoundsException` typically occurs when you try to access or insert an element at an index that doesn't exist. However, the `ArrayList` does resize automatically, but when manually checking its capacity before adding elements, you might be comparing against the wrong value. Could you verify if the index at which you're trying to add the element exceeds the list's current size? Also, you could try to use the `size()` method to check if the list is full?
@@ -26,6 +28,7 @@ Thanks for the help!
 **File and Directory Structure**
 -   `ListManager.java`
 -   `run.sh`
+  ![Image](files.png)
 
 **Contents of the Files**
 - `ListManager.java` with the bug before fixing
